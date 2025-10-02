@@ -1,0 +1,21 @@
+import streamlit as st
+
+st.title("🧾 Expense Tracker")
+
+if "expenses" not in st.session_state:
+    st.session_state.expenses = {}
+
+category = st.text_input("Enter category (e.g. Food)")
+amount = st.number_input("Enter amount", min_value=0, step=1)
+
+if st.button("Add Expense"):
+    if category:
+        st.session_state.expenses[category] = st.session_state.expenses.get(category, 0) + amount
+        st.success(f"Added ₹{amount} to {category}")
+
+if st.button("Show Summary"):
+    total = sum(st.session_state.expenses.values())
+    st.subheader("Expense Summary")
+    for cat, amt in st.session_state.expenses.items():
+        st.write(f"{cat}: ₹{amt}")
+    st.write(f"**Total: ₹{total}**")
