@@ -5,6 +5,7 @@ Final Version:-
 • Type  summary to view total expenses by category
 
 2.Features:-
+
 -Tracks multiple categories (food, rent, travel, etc.)
 -Shows total and per-category summary
 -Handles invalid input gracefully
@@ -17,5 +18,6 @@ Final Version:-
 - Save expenses to file
 - Add Streamlit UI
 - Deploy on Hugging Face Spaces
+
 
 
