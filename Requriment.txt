@@ -1,0 +1,2 @@
+No external libraries required
+This app uses only built-in Python modules.
