@@ -1,6 +1,7 @@
 Final Version:-
 
 1.How to Use:-
+
 • Enter expenses in the format:  
 • Type  summary to view total expenses by category
 
@@ -18,6 +19,7 @@ Final Version:-
 - Save expenses to file
 - Add Streamlit UI
 - Deploy on Hugging Face Spaces
+
 
 
 
