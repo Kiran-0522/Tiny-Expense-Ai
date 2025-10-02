@@ -8,7 +8,9 @@ Final Version:-
 2.Features:-
 
 -Tracks multiple categories (food, rent, travel, etc.)
+
 -Shows total and per-category summary
+
 -Handles invalid input gracefully
 
 3.Requirements:-
@@ -19,6 +21,7 @@ Final Version:-
 - Save expenses to file
 - Add Streamlit UI
 - Deploy on Hugging Face Spaces
+
 
 
 
